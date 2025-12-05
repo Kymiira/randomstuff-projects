@@ -1,3 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
+    <meta charset="UTF-8">
+    <title>Basic HTML Lesson</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 30px;
+            max-width: 900px;
+            margin: auto;
+        }
+        code {
+            background: #f4f4f4;
+            display: block;
+            padding: 10px;
+            white-space: pre-wrap;
+            border-left: 4px solid #999;
+            margin-top: 10px;
+        }
+        .example-box {
+            border: 2px solid #ddd;
+            padding: 15px;
+            margin-top: 10px;
+            background: #fafafa;
+        }
+    </style>
 </head>
+<body>
+
+<h1>Welcome to Basic HTML</h1>
+<p>
+    HTML is the simple language used to build all websites.  
+    The browser reads it from top to bottom and displays the content.
+</p>
+
+<hr>
+
+<h2>1. What HTML Looks Like</h2>
+<p>HTML uses tags to show what things are. Tags usually come in pairs.</p>
+
+<code>
+&lt;tagname&gt;This is content&lt;/tagname&gt;
+</code>
+
+<div class="example-box">
+    <strong>Example:</strong><br>
+    &lt;p&gt;This is a paragraph.&lt;/p&gt;
+</div>
+
+<hr>
+
+<h2>2. The Basic Page Structure</h2>
+<p>Every page starts with a simple layout like this:</p>
+
+<code>
+&lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br>
+&nbsp;&nbsp;&lt;head&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;My Page&lt;/title&gt;<br>
+&nbsp;&nbsp;&lt;/head&gt;<br>
+&nbsp;&nbsp;&lt;body&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Page content goes here!<br>
+&nbsp;&nbsp;&lt;/body&gt;<br>
+&lt;/html&gt;
+</code>
+
+<p>The <strong>&lt;body&gt;</strong> is the part the viewer sees.</p>
+
+<div class="example-box">
+    <strong>Browser Output:</strong><br>
+    Page content goes here!
+</div>
+
+<hr>
+
+<h2>3. Headings</h2>
+<p>Headings come in sizes from 1 (biggest) to 6 (smallest).</p>
+
+<code>
+&lt;h1&gt;Heading 1&lt;/h1&gt;<br>
+&lt;h2&gt;Heading 2&lt;/h2&gt;<br>
+&lt;h3&gt;Heading 3&lt;/h3&gt;<br>
+...
+</code>
+
+<div class="example-box">
+    <strong>Browser Output:</strong>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+</div>
+
+<hr>
+
+<h2>4. Paragraphs</h2>
+<p>The &lt;p&gt; tag is used for normal text.</p>
+
+<code>
+&lt;p&gt;This is a simple paragraph.&lt;/p&gt;
+</code>
+
+<div class="example-box">
+    <strong>Browser Output:</strong>
+    <p>This is a simple paragraph.</p>
+</div>
+
+<hr>
+
+<h2>5. Images</h2>
+<p>You can show an image using the &lt;img&gt; tag.  
+It does not need a closing tag.</p>
+
+<code>
+&lt;img src="example.jpg" width="200"&gt;
+</code>
+
+<div class="example-box">
+    <strong>Browser Output:</strong><br>
+    (If example.jpg existed, it would appear here.)
+</div>
+
+<hr>
+
+<h2>6. Links</h2>
+<p>Links are created with the &lt;a&gt; tag.</p>
+
+<code>
+&lt;a href="https://example.com"&gt;Click here&lt;/a&gt;
+</code>
+
+<div class="example-box">
+    <strong>Browser Output:</strong><br>
+    <a href="#">Click here</a>
+</div>
+
+<hr>
+
+<h2>End of Lesson</h2>
+<p>
+    You now know:
+</p>
+<ul>
+    <li>What tags look like</li>
+    <li>The basic page structure</li>
+    <li>Headings</li>
+    <li>Paragraphs</li>
+    <li>Images and links</li>
+</ul>
+
+</body>
+</html>
