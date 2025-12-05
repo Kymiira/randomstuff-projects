@@ -137,6 +137,29 @@ It does not need a closing tag.</p>
 
 <hr>
 
+<h2>7. Changing Text with JavaScript</h2>
+<p>JavaScript can change the content of your page. You can use <code>getElementById</code> to grab an element and then change its text.</p>
+
+<code>
+// Grab the element by its ID
+let myText = document.getElementById("demo");
+
+// Change its content
+myText.innerHTML = "Hello, JavaScript!";
+</code>
+
+<div class="example-box">
+    <strong>Example:</strong><br>
+    <p id="demo">This text will change.</p>
+    <button onclick="document.getElementById('demo').innerHTML = 'Hello, JavaScript!'">
+        Click me
+    </button>
+</div>
+
+<p>Here, when you click the button, the paragraph text changes.</p>
+
+<hr>
+
 <h2>End of Lesson</h2>
 <p>
     You now know:
@@ -147,6 +170,7 @@ It does not need a closing tag.</p>
     <li>Headings</li>
     <li>Paragraphs</li>
     <li>Images and links</li>
+    <li>Very simple value manipulation utilizing JavaScript</li>
 </ul>
 
 </body>
